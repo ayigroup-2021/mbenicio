@@ -1,0 +1,21 @@
+body {
+    padding-top: 5rem;
+  }
+  .starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .center {
+    border: 5px solid #008000;
+    display: flex;
+    justify-content: center;
+    }
+  
+  h1{
+      color:#00FF00;
+  }
+  
+  h2{
+      color:#008080;
+  }
