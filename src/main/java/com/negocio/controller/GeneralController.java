@@ -23,7 +23,7 @@ public class GeneralController {
     Lista todos los productos existentes.
     */
     
-    @GetMapping("/listarTodosProductos")
+    @GetMapping("/user/listarTodosProductos")
     public String listarProductos(Model model) {
         try {
             
@@ -44,7 +44,7 @@ public class GeneralController {
     /* 
     Lista los productos correspondientes a un proveedor, dado el id.
     */
-    @GetMapping("/listarProductos")
+    @GetMapping("/user/listarProductos")
     public String listarProductos(@RequestParam(name = "id") int id, Model model) {
         try {
 
@@ -69,7 +69,7 @@ public class GeneralController {
     Devuelve información del producto dado el id correspondiente.
     */
     
-    @GetMapping("/buscarProducto")
+    @GetMapping("/user/buscarProducto")
     public String buscarProducto(@RequestParam(name = "id") int id, Model model) {
         try {
             
@@ -92,7 +92,7 @@ public class GeneralController {
     Elimina un producto dado el id correspondiente.
     */
     
-    @GetMapping("/eliminarProducto")
+    @GetMapping("/admin/eliminarProducto")
     public String eliminarProductos(@RequestParam(name = "id") int id, Model model) {
         try {
             
@@ -113,7 +113,7 @@ public class GeneralController {
     Modifica el nombre del producto dado el id correspondiente.
     */
     
-    @GetMapping("/modificarProducto")
+    @GetMapping("/admin/modificarProducto")
     public String modificarProducto(@RequestParam(name = "id") int id,
                                 @RequestParam(name = "nombre") String nombre, 
                                 Model model) {

@@ -19,7 +19,7 @@ public class RestParticularController {
     Servicio Post para crear un nuevo detalle dado la descripción del producto.
     */
     
-    @PostMapping("/nuevoDetalle")
+    @PostMapping("/admin/nuevoDetalle")
     public String nuevoDetalle(@RequestBody InitElement initElement) {
         
         String mensaje = operationServices.nuevoDetalle(initElement.getDetalleDescripcion()); 
@@ -31,7 +31,7 @@ public class RestParticularController {
     Servicio Post para crear un nuevo proveedor dado el nombre del mismo.
     */
    
-    @PostMapping("/nuevoProveedor")
+    @PostMapping("/admin/nuevoProveedor")
     public String nuevoProveedor(@RequestBody InitElement initElement) {
         
         String mensaje = operationServices.nuevoProveedor(initElement.getProveedorNombre()); 
@@ -44,7 +44,7 @@ public class RestParticularController {
     de proveedor y del detalle.
     */
     
-    @PostMapping("/nuevoProducto")
+    @PostMapping("/admin/nuevoProducto")
     public String nuevoProducto(@RequestBody InitElement initElement) {
         
         String mensaje = operationServices.nuevoProducto(initElement.getProductoNombre(), initElement.getProveedorId(), initElement.getDetalleId());
