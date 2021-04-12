@@ -1,0 +1,5 @@
+Comentarios sobre el proyecto - Security
+
+Faltó corregir que muestre el header en algunas páginas. Debido a que no reconoce el css.
+Y a dónde se dirige después de loguearse como admin, es incorrecto.
+Pero el acceso a los endpoints de acuerdo a la seguridad si funciona.
