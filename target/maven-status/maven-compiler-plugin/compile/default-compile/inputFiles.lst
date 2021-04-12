@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\controller\GeneralController.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\model\InitElement.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\configuaration\EncoderBeanConfiguration.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\repository\DetalleRepository.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\services\OperationServices.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\model\Detalle.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\controller\RestParticularController.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\repository\ProveedorRepository.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\model\Proveedor.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\controller\ControllerSecurity.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\error\MyAccessDeniedHandler.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\NegocioApplication.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\configuaration\SpringSecurityConfig.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\model\Producto.java
+C:\Users\Usuario\Documents\NetBeansProjects\negocio\src\main\java\com\negocio\repository\ProductoRepository.java
